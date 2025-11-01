@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sandy — Futuristic 3D Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/Users/09sandy/ChattyBySandy/sharedstyling(animations,3D,neon,glass)/style.css">
+</head>
+<body>
+  <div class="bg-stars"></div>
+
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="logo">S</span> Sandy</a>
+    <nav class="nav">
+      <a href="/Users/09sandy/ChattyBySandy/home/index.html">Home</a>
+      <a href="/Users/09sandy/ChattyBySandy/projects/projects.html">Projects</a>
+      <a href="/Users/09sandy/ChattyBySandy/about/about.html">About</a>
+      <a href="/Users/09sandy/ChattyBySandy/contact/contact.html" class="cta">Contact</a>
+    </nav>
+    <button class="mobile-toggle" aria-label="Toggle menu">☰</button>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-left">
+        <h1 class="huge">Interfaces that feel <span class="gradient-text">alive</span></h1>
+        <p class="lead">I build futuristic, 3D-feeling web experiences — neon-glass, motion-first, and performance-minded.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="/Users/09sandy/ChattyBySandy/projects/projects.html">See Projects</a>
+          <a class="btn ghost" href="/Users/09sandy/ChattyBySandy/contact/contact.html">Hire me</a>
+        </div>
+
+        <div class="badges">
+          <span>React • Tailwind • Motion</span>
+          <span>3D Illusions • UX & Performance</span>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="scene" data-tilt>
+          <div class="card card-large">
+            <div class="card-head">
+              <div class="meta">Featured</div>
+              <div class="year">2025</div>
+            </div>
+            <h3 class="card-title">Aurora — Design System</h3>
+            <div class="ring-wrap">
+              <div class="ring ring-1"></div>
+              <div class="ring ring-2"></div>
+              <div class="ring ring-3"></div>
+              <div class="core"></div>
+            </div>
+            <div class="card-foot">
+              <div>⭐ 4.9</div>
+              <div class="links">View • Code</div>
+            </div>
+          </div>
+
+          <div class="floating-plate plate-1"></div>
+          <div class="floating-plate plate-2"></div>
+          <div class="grid-ground"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="preview-grid" id="projects-preview">
+      <article class="proj" data-tilt>
+        <div class="proj-inner">
+          <h4>PULSE Finance</h4>
+          <p>Neon dashboard & 3D charts for traders.</p>
+          <div class="tags"><span>Dashboard</span><span>DataViz</span></div>
+        </div>
+      </article>
+
+      <article class="proj" data-tilt>
+        <div class="proj-inner">
+          <h4>Nebula Landing</h4>
+          <p>High-conversion neon landing with motion.</p>
+          <div class="tags"><span>Landing</span><span>Motion</span></div>
+        </div>
+      </article>
+
+      <article class="proj" data-tilt>
+        <div class="proj-inner">
+          <h4>Aurora UI Kit</h4>
+          <p>Component system + adaptive themes.</p>
+          <div class="tags"><span>Design</span><span>System</span></div>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>© <span id="year"></span> Sandy — Futuristic 3D Portfolio</div>
+    <div class="socials">• <a href="#">GitHub</a> • <a href="#">Dribbble</a> •</div>
+  </footer>
+
+  <script src="/Users/09sandy/ChattyBySandy/sharedjs(animations,3Dtilt,nav)/script.js"></script>
+</body>
+</html>
